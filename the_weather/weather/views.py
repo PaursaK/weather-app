@@ -11,7 +11,7 @@ from django.contrib import messages
 
 # Create your views here.
 def index(request):
-    url = "http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid={apikey}"
+    url = "http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=9{api_key_here}"
     #city = "Las Vegas"
 
     if request.method == 'POST':
